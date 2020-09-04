@@ -1,0 +1,129 @@
+/*--引入antd样式--*/
+
+// @import "~antd/dist/antd.dark.less";
+// @import '../../themes/green.less';
+
+body {
+}
+.topnav{
+    padding: 10px;
+    
+}
+
+
+#header{
+  width:100%;
+  display: flex;
+  box-shadow: 0 2px 8px #f0f1f2;
+}
+#header .header_left{
+  width:20%;
+  display: flex;
+  align-items: center;
+  padding:0px 20px;
+  position: relative;
+
+}
+#header .header_left::after{
+  content: " ";
+  width: 1px;
+  height: 100%;
+  background: #eee;
+  position: absolute;
+  right: 48px;
+  transform: scaleY(0.5);
+}
+#header .header_left h2{
+  margin-top:12px;
+  margin-right: 40px;
+}
+
+#header .header_left h2 img{
+  margin-right:12px;
+  width:30px;
+  height:30px;
+}
+
+#header .header_con{
+  width:70%;
+  display: flex;
+
+}
+#header .header_con .searchwrap{
+  width:40%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .header_con .searchwrap input{
+  border: 0;
+  outline: 0;
+  box-shadow: 0;
+  border-radius: 0px;
+}
+#header .header_con .searchwrap input:focus{
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+#header .header_con .topnavwrap{
+  width:60%;
+  height:100%;
+}
+
+#header .header_right{
+  width:10%;
+
+}
+
+#wrap{
+    padding:0px 10px;
+    width: 100%;
+    height:700px;
+    margin-top:10px;
+    position: relative;
+    
+}
+#left{
+    width: 20%;
+    height:700px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    
+}
+
+
+#siderwrap{
+    padding:0px!important;
+    margin:0px!important;
+    width:100%;
+    height:700px;
+    overflow-y: scroll;
+    padding-right:10px;
+}
+#siderwrap::-webkit-scrollbar {width:0px;}
+#siderwrap ::-webkit-scrollbar  ::-webkit-scrollbar{width: 20px;color:red;background-color: red;}
+
+
+
+#con{
+    padding-right: 100px;
+    width: 80%;
+    height:700px;
+   
+  float:right;
+  
+
+}
+
+#con::-webkit-scrollbar {display:none}
+
+.theme__select__wrap{
+  position: fixed;
+  right: 20px;
+  bottom:100px;
+}
+

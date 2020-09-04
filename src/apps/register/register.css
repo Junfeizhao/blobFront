@@ -1,0 +1,15 @@
+.register__wrap{
+    width:700px;
+    /* height:300px; */
+    /* border:1px solid red; */
+    margin:0 auto;
+    padding:20px;
+    padding-right: 100px;
+    padding-top:50px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    left: 31%;
+    top:10px;
+    
+}

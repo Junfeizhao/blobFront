@@ -1,0 +1,28 @@
+.quillwrap{
+    width:80%;
+    margin: 20px auto;
+    padding-bottom:40px;
+    padding-top:20px;
+}
+
+.row_wrap{
+    display: flex;
+}
+.wp{
+   
+    margin-top:30px;
+}
+.title{
+    width: 50%;
+}
+
+.quill{
+    height:500px;
+}
+.description_wrap{
+    margin-top:20px;
+}
+
+.content_wrap{
+    margin-top:20px;
+}

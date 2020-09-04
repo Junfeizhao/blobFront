@@ -1,7 +1,8 @@
 import React from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
-import Index from './index/index'
-import Login from './login/login'
+import Index from './apps/index/index'
+import Login from './apps/login/login'
+import Register from './apps/register'
 
 
 const BasicRoute = () => (
@@ -9,6 +10,7 @@ const BasicRoute = () => (
         <Switch>
             <Route exact path="/" component={Index}/>
             <Route exact path="/login" component={Login}/>
+            <Route exact path="/register" component={register}/>
         </Switch>
     </HashRouter>
 );

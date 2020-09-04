@@ -1,0 +1,64 @@
+.theme__select__wrap{
+    width:100px;
+    height:200px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme__select__con{
+    z-index: 999;
+   margin-top:51px;
+    width:46px;
+    height:46px;
+    /* background: pink; */
+    /* border:1px solid red; */
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(../../../../assets/imgs/1.jpg);
+    background-size: cover;
+    border:1px solid #ccc;
+}
+.theme__select__con:hover{
+    background-image: url(../../../../assets/imgs/2.jpg);
+}
+
+.theme__select__con:hover  .theme__select__list_wrap{
+  display: flex;
+}
+
+.theme__select__list_wrap{
+    width:100px;
+    height:150px;
+    /* border:1px solid red; */
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+}
+
+.theme__select__list{
+   margin-bottom: 100px;
+   padding: 0;
+    width:70px;
+    height:100px;
+    cursor: pointer;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    
+}
+.theme__select__list li{
+    list-style: none;
+    /* border:1px solid black; */
+    text-align: center;
+    padding: 5px;
+}
+
+.theme__select__list li:hover{
+  background:#ccc;
+}
+
