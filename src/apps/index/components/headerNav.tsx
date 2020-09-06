@@ -70,7 +70,7 @@ export default class Header extends React.Component<IProps,IState>{
 
        userInfo=()=>{
         var user = this.state.user;
-        var base = 'http://jfly.xyz:80/';//'http://localhost:8025/';
+        var base = 'http://39.101.203.37/';//'http://localhost:8025/';
         var userAvatar = base +user.avatar;
         console.log(user,'user3333')
         const onClick = (e:any) => {

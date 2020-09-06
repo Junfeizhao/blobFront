@@ -109,7 +109,7 @@ class Settings extends React.Component<IProps,IState> {
           confirmLoading={confirmLoading}
           onCancel={this.handleCancel}
         >
-          <p><Uploader avatarUrl={'http://jfly.xyz:80/'+this.state.user.avatar}/></p>  
+          <p><Uploader avatarUrl={'http://39.101.203.37/'+this.state.user.avatar}/></p>  
           <Form
       name="normal_login"
       className="login-form"

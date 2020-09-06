@@ -30,7 +30,7 @@ class ArticleLise extends React.Component<Iprops,IState>{
         super(Iprops)
         this.state={
           detail:{},
-          baseSrc:'http://jfly.xyz:80/',//http://localhost:3000/
+          baseSrc:'http://39.101.203.37/',//http://localhost:3000/
           view:0,
           haveData:false,
           artList:[{content:"",avatar:"",description:"",title:"",href:"",stars:"",likes:"",nickname:'',createTime:''}]
