@@ -1,13 +1,15 @@
+import ReactQuill from 'react-quill';
 import React from 'react';
 import { Upload, message,  TreeSelect,Input,Button,} from 'antd';
 import { UploadOutlined } from '@ant-design/icons';
 import 'react-quill/dist/quill.snow.css';
 import  "./index.css"
 import http from "../../utils/api"
+// import Header from '../index/components/headerNav';
 const { TextArea } = Input;
 
 //懒加载组件
-const ReactQuill=React.lazy(()=>import('react-quill'));
+// const ReactQuill=React.lazy(()=>import('react-quill'));
 const Header =React.lazy(()=>import('../index/components/headerNav'));
 const modules= {
   toolbar: {
