@@ -113,7 +113,6 @@ class Publish extends React.Component<IProps,IState>{
     getKeyWords=(e:any)=>{
       console.log(e);
     } 
-   
     handleChange(value:any) {
       this.setState({ content: value })
     //   console.log(this.state['content'])
