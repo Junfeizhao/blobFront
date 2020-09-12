@@ -5,7 +5,7 @@ import { UploadOutlined } from '@ant-design/icons';
 import 'react-quill/dist/quill.snow.css';
 import  "./index.css"
 import http from "../../utils/api"
-// import Header from '../index/components/headerNav';
+import Header from '../index/components/headerNav';
 const { TextArea } = Input;
 
 //懒加载组件
