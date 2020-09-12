@@ -11,6 +11,7 @@ const { TextArea } = Input;
 //懒加载组件
 // const ReactQuill=React.lazy(()=>import('react-quill'));
 // const Header =React.lazy(()=>import('../index/components/headerNav'));
+
 const modules= {
   toolbar: {
     container: [
